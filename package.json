@@ -1,0 +1,25 @@
+{
+  "name": "bradfitzwater.com",
+  "version": "1.0.0",
+  "description": "My Website",
+  "main": "index.js",
+  "scripts": {
+      "build": "eleventy",
+      "serve": "eleventy --serve",
+      "watch": "eleventy --serve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brad-fitzwater/bradfitzwater.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brad-fitzwater/bradfitzwater.com/issues"
+  },
+  "homepage": "https://github.com/brad-fitzwater/bradfitzwater.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}
